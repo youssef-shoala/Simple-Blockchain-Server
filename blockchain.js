@@ -28,6 +28,14 @@ class Blockchain {
 
     }
 
+    // Returns the length of our chain
+
+    getChainLength() {
+
+        return this.chain.length;
+
+    }
+
      // Adds a new block to the chain
 
     addBlock() {
